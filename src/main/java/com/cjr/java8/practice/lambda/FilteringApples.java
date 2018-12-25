@@ -35,7 +35,7 @@ public class FilteringApples {
 		greenApples = filterApples(inventory, (Apple t) -> "green".equals(t.getColor()));
 		System.out.println(greenApples);
 
-		//3. 过滤绿色的苹果： 使用lambda表达式
+		//4. 过滤绿色的苹果： 使用lambda表达式
 		greenApples = filterApples(inventory, t -> "green".equals(t.getColor()));
 		System.out.println(greenApples);
 		
