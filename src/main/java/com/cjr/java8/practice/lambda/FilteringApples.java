@@ -5,14 +5,13 @@ import java.util.List;
 import java.util.function.Predicate;
 
 /**
- * &#x96c6;&#x5408;&#x8fc7;&#x6ee4;&#x793a;&#x4f8b;: &#x5b9e;&#x8df5; java 8 &#x7684; "&#x884c;&#x4e3a;&#x53c2;&#x6570;&#x5316;"&#x601d;&#x60f3;&#xff0c; lambda&#x7684;&#x7c7b;&#x578b;&#x63a8;&#x65ad;
+ *  集合过滤示例: 实践 java 8 的 "行为参数化"思想， lambda的类型推断
  *
  * @author cjr
  * @date 2018-12-25
  */
 public class FilteringApples {
 
-    @SuppressWarnings("Convert2Lambda")
     public static void main(String... args) {
         List<Apple> inventory = new ArrayList<>();
         inventory.add(new Apple(100, "green"));
