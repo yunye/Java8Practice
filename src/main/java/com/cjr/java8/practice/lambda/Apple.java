@@ -9,21 +9,21 @@ package com.cjr.java8.practice.lambda;
  */
 public class Apple {
     /** 重量. */
-    private int weight = 0;
+    private Integer weight = 0;
 
     /** 颜色. */
     private String color = "";
 
-    public Apple(int weight, String color) {
+    public Apple(Integer weight, String color) {
         this.weight = weight;
         this.color = color;
     }
 
-    public int getWeight() {
+    public Integer getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
+    public void setWeight(Integer weight) {
         this.weight = weight;
     }
 
