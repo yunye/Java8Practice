@@ -1,5 +1,7 @@
-package com.cjr.java8.practice.lambda;
+package com.cjr.java8.practice.lambda.part1;
 
+import com.cjr.java8.practice.lambda.Apple;
+import com.cjr.java8.practice.lambda.IFilterApple;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
