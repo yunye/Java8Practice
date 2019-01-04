@@ -27,3 +27,23 @@ lambda通过行为的上下文信息自动推断参数类型、返回类型
 
 ### Stream基础用法
 
+### 构造Stream的方法
+1 String.of
+
+2 Arrays.stream
+
+3 Stream.empty
+
+4 Stream.iterator
+
+5 Stream.generate
+
+### 流Stream的截断
+
+1 构造随机数组成的流
+
+2 构造斐波那契数列组成的流
+
+### flatMap
+
+

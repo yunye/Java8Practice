@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 
 /**
  * 流Stream基础用法
+ *
  * @author cjr
  * @date 2019/1/4 15:36
  */
